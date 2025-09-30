@@ -1,1 +1,250 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>Ralph's page</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+	<a href="" class="uk-navbar-item uk-logo uk-light">Ralph Eatough</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#pulsars" uk-scroll>Research</a></li>
+	    <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Publications</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Media</a></li>
+	    <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Collaborations</a></li>
+	    <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
+	    
+        </ul>
+
+    </div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Ralph Eatough</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Change This -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
+
+        </ul>
+
+
+
+
+    </div>
+</div>
+
+<!-- Navigation Bar Mobile Ends -->
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h1 class="uk-margin-xlarge-left uk-text-left uk-margin-xlarge-right">Ralph Eatough - National Astronomical Observatories, Chinese Academy of Sciences, Beijing.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+
+</p>
+<a href="http://english.nao.cas.cn/" class="uk-margin-xlarge-left uk-dark uk-button-text" uk-icon="info"></a> 
+
+    
+</section>
+
+<!-- Home Ends -->
+
+<!-- <img class="uk-margin-xlarge-left uk-margin-small-right uk-margin-xsmall-top uk-margin-xxsmall-bottom" src="./pics/WechatIMG4_crop4.jpg" > -->
+<!-- Change here to ur paragraph -->
+
+
+<br>
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-small-top uk-margin-xlarge-bottom">
+<p><br><br></p>
+<h3 class="uk-margin-xlarge-left">About Me</h3>
+<a href=./pics/profile.png><IMG class="uk-margin-xlarge-left uk-margin-small-right uk-margin-xsmall-top uk-margin-xxsmall-bottom" SRC="./pics/profile.png" align=left width=105 ---- height=145></a> 
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xsmall-top">
+  I'm an Astrophysicist at the National Astronomical Observatories of the Chinese Academy of Sciences (NAOC) in Beijing. I'm working in the <a href="http://english.nao.cas.cn/research/researchdivisions/radioastronomy/202103/t20210323_266393.html">FAST</a> research group under the CAS President's International Fellowship Initiative (PIFI). My research interests are in searches for undiscovered  <a href="#pulsars" uk-scroll>pulsars</a> and their subsequent study. In particular, I am trying to find pulsars in exciting locations where they have not yet been detected. Examples might include pulsar black hole binary systems; pulsars orbiting the supermassive black hole at the centre of our Galaxy; or pulsars at great distances in external galaxies.
+
+<br><br>
+Please read <a href="#pulsars" uk-scroll>here</a> to learn about what pulsars are and how they can be used in astronomy and fundamental physics.
+  
+</p>
+
+<a href="" class="uk-margin-xlarge-left uk-dark uk-button-text" uk-icon="home"></a> &nbsp;<a href="https://scholar.google.com/citations?user=5klV-OIAAAAJ&hl=en" class="uk-dark uk-button-text" uk-icon="scholar"></a> &nbsp;<a href="https://github.com/r-eatough" class="uk-button-text uk-dark" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/ralph-eatough-657b3b14b/" class=" uk-dark uk-button-text" uk-icon="linkedin"></a>
+
+<!-- About Me Ends -->
+
+
+</section>
+
+<!-- Pulsars Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="pulsars" class="uk-margin-small-left uk-margin-small-right uk-margin-small-top uk-margin-xlarge-bottom">
+<p><br><br></p>
+<h3 class="uk-margin-xlarge-left">Pulsars</h3>
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xsmall-top">
+
+
+<br>
+FORMED IN A SUPERNOVA: After a massive star has used up all of its nuclear fuel, gravity takes over and it collapses in a tremendous explosion known as a supernova. A pulsar is the ultra-compact star that is left behind. These unique objects are as massive as the Sun but have a diameter of just 20 km!
+<br><br>
+<!-- <img class="uk-margin-xlarge-left uk-margin-small-right uk-margin-xsmall-top uk-margin-xxsmall-bottom" src="./pics/SN_EXPLOSION.jpg">  -->   
+<a href=./pics/SN_EXPLOSION.jpg><IMG class="uk-margin-xlarge-left uk-margin-small-right uk-margin-xsmall-top uk-margin-xxsmall-bottom" SRC="./pics/SN_EXPLOSION.jpg"  class="center" width=520 ---- height=680></a> 
+
+<br><br>
+LIGHTHOUSES IN SPACE: Pulsars are in fact neutron stars visible through their characteristic "pulses" of emission (usually observed at radio wavelengths but often also in gamma-rays and X-rays). So why do pulsars pulse? The explination is simple. Pulsars are highly magnetised and their electromagnetic emission is beamed along the stars magnetic poles. They are also spinning very quickly causing the emission to sweep out across space much like a lighthouse beam. If the beam sweeps past the Earth, we can detect a "pulse" of emission with large radio telescopes.
+<br><br>
+
+<a href=./pics/pulsar_lighthouse.jpg><IMG class="uk-margin-xlarge-left uk-margin-small-right uk-margin-xsmall-top uk-margin-xxsmall-bottom" SRC="./pics/pulsar_lighthouse0.jpg"  align=middle width=420 ---- height=580></a> 
+<br><br>
+AS PRECISE AS ATOMIC CLOCKS: Not only are pulsars fascinating objects in ther own right, they are extremely useful testbeds for astrophysics and many areas in fundamental physics. From measurements of the interstellar medium to tests of  
+
+e.g. spin period of PSR B1937+21
+
+P = 0.0015578064688197945 ± 0.0000000000000000004 seconds
+
+(Kaspi et al. 1994, ApJ.)
+
+Their accuracy lies in precise knowledge of the rotational phase acheived through the process of pulsar timing. 
+https://www.britannica.com/science/pulsar
+
+
+<!-- Their use lies in the extreme precision with which pulses from pulsars arrive on Earth.  <p><a href="./galactic_centre/gc.html">Galactic centre</a></p> -->
+
+<br><br>
+<img class="uk-margin-xlarge-left uk-margin-small-right uk-margin-xsmall-top uk-margin-xxsmall-bottom" src="./pics/WechatIMG1_scale2.jpg">
+
+
+<br>
+
+
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<!-- Pulsars Section Ends -->
+
+
+
+
+<!-- Projects Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<p><br><br></p>
+<h3 class="uk-margin-xlarge-left">Publications</h3>
+<p class="uk-margin-xlarge-left">Below I've highlighted some of my central publications. For my full paper list see <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Eatough%2C%20R.%20P.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">NASA ads</a>.
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- papers -->
+  
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+      <h4>A Search for Pulsars around Sgr A* in the First Event Horizon Telescope Data Set</h4>
+      <p>The Astrophysical Journal</p>
+      <a class="uk-button-text uk-text-decoration-none" href="https://ui.adsabs.harvard.edu/abs/2023ApJ...959...14T/abstract">
+        <span uk-icon="icon: link">
+        </span> NASA ADS Link</a>
+    </div>
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+      <h4>Multi-epoch searches for relativistic binary pulsars and fast transients in the Galactic Centre</h4>
+      <p>Monthly Notices of the Royal Astronomical Society</p>
+      <a class="uk-button-text uk-text-decoration-none" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.5053E/abstract">
+        <span uk-icon="icon: link">
+        </span> NASA ADS Link </a>
+    </div>
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+      <h4>Large Magneto-ionic Variations toward the Galactic Center Magnetar, PSR J1745-2900</h4>
+      <p>The Astrophysical Journal</p>
+      <a class="uk-button-text uk-text-decoration-none" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...852L..12D/abstract">
+        <span uk-icon="icon: link">
+        </span> NASA ADS Link </a>
+    </div>
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+      <h4>A strong magnetic field around the supermassive black hole at the Galactic Centre</h4>
+      <p>Nature</p>
+      <a class="uk-button-text uk-text-decoration-none" href="https://ui.adsabs.harvard.edu/abs/2013Natur.501..391E/abstract">
+        <span uk-icon="icon: link">
+        </span> NASA ADS Link</a>
+    </div>
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+      <h4>A coherent acceleration search of the Parkes multibeam pulsar survey - techniques and the discovery and timing of 16 pulsars </h4>
+      <p>Monthly Notices of the Royal Astronomical Society</p>
+      <a class="uk-button-text uk-text-decoration-none" href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.431..292E/abstract">
+        <span uk-icon="icon: link">
+        </span> NASA ADS Link</a>
+    </div>
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+      <h4>Selection of radio pulsar candidates using artificial neural networks </h4>
+      <p>Monthly Notices of the Royal Astronomical Society</p>
+      <a class="uk-button-text uk-text-decoration-none" href="https://ui.adsabs.harvard.edu/abs/2010MNRAS.407.2443E/abstract">
+        <span uk-icon="icon: link">
+        </span> NASA ADS Link</a>
+    </div>
+
+    
+
+    
+
+
+    
+
+
+    
+</div>
+
+
+
+    <br>
+
+
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<!-- Projects Section Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
